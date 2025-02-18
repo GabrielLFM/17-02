@@ -15,7 +15,7 @@ public class IMC {
 		peso = sc.nextDouble();
 		
 		imc = peso/(altura*altura);
-		System.out.printf("O IMC é: %.2f%n",imc," Km/m²");
+		System.out.printf("O IMC é: %.2f%n",imc," Kg/m²");
 		
 		
 		if(imc>=32.4) {
